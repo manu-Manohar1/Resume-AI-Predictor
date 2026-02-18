@@ -1,102 +1,199 @@
-# 🚀 Resume AI Predictor
+🚀 Resume Category Predictor – AI Powered Web App
 
-An AI-powered Resume Category Prediction Web Application built using Machine Learning and Streamlit.
+🔗 Live App: https://your-app-name.streamlit.app
 
-This system analyzes resume content (PDF or text) and predicts the most relevant job category with confidence scores and intelligent feedback.
+An end-to-end Machine Learning web application that predicts the most relevant job category from a resume (PDF or text input) using Natural Language Processing and a trained classification model.
 
----
+This project demonstrates the complete ML lifecycle: data preprocessing, model training, evaluation, serialization, and cloud deployment using Streamlit.
 
-## 🔥 Features
-
-- Upload Resume (PDF Support)
-- Paste Resume Text Option
-- ML-Based Category Prediction
-- Top 3 Predictions with Confidence Scores
-- Visual Confidence Bars
-- Resume Match Score
-- Resume Improvement Suggestions
-- Download Prediction Report (PDF)
-- Clean Modern UI
 
 ---
 
-## 🧠 Machine Learning Pipeline
+📌 About The Project
 
-1. Text Cleaning & Preprocessing  
-2. TF-IDF Vectorization  
-3. Logistic Regression Classifier  
-4. Label Encoding  
-5. Model saved using Pickle  
+Recruiters and HR teams receive hundreds of resumes daily. This application automates resume classification by analyzing content and predicting the most suitable job category with confidence scores.
 
----
+The system uses TF-IDF vectorization and Logistic Regression to perform text-based classification.
 
-## 🛠 Tech Stack
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- PyPDF2
-- ReportLab
-- Git & GitHub
 
 ---
 
-## 📂 Project Structure
+🔥 Key Features
 
-Resume-AI-Predictor/
+📄 Upload Resume (PDF supported)
+
+✍ Paste Resume Text
+
+🤖 ML-based Job Category Prediction
+
+🏆 Top 3 Predicted Categories
+
+📊 Confidence Score Visualization
+
+🎯 Basic ATS-style Resume Insights
+
+💡 Resume Improvement Suggestions
+
+📥 Download Prediction Report as PDF
+
+🌙 Clean & Professional UI (Streamlit)
+
+
+
+---
+
+🧠 Machine Learning Pipeline
+
+1. Text Cleaning & Preprocessing
+
+
+2. TF-IDF Vectorization
+
+
+3. Label Encoding
+
+
+4. Logistic Regression Classification
+
+
+5. Model Serialization using Pickle
+
+
+6. Deployment via Streamlit Cloud
+
+
+
+
+---
+
+🛠 Tech Stack
+
+Python
+
+Streamlit
+
+Scikit-learn
+
+Pandas
+
+NumPy
+
+PyPDF2
+
+ReportLab
+
+
+
+---
+
+📂 Project Structure
+
+Resume-Category-Predictor/
 │
-├── app.py  
-├── resume_dataset.py  
-├── resume_model.pkl  
-├── tfidf_vectorizer.pkl  
-├── label_encoder.pkl  
-├── requirements.txt  
-├── README.md  
-└── LICENSE  
+├── app.py
+├── resume_dataset.py
+├── UpdatedResumeDataSet.csv
+├── resume_model.pkl
+├── tfidf_vectorizer.pkl
+├── label_encoder.pkl
+├── requirements.txt
+├── README.md
+└── LICENSE
+
 
 ---
 
-## ▶️ Run Locally
+▶️ Run Locally
 
-Clone the repository:
+1️⃣ Clone Repository
 
-git clone https://github.com/your-username/Resume-AI-Predictor.git
+git clone https://github.com/manu-Manohar1/Resume-AI-Predictor.git
 
-Install dependencies:
+2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-Run the application:
+3️⃣ Run App
 
 streamlit run app.py
 
----
-
-## 🎯 Use Cases
-
-- Resume Screening Automation  
-- HR Shortlisting Assistance  
-- ATS Resume Testing  
-- Machine Learning Portfolio Project  
 
 ---
 
-## 🚀 Future Improvements
+🌍 Deployment
 
-- Deep Learning Model (BERT)  
-- Job Description Matching  
-- Skill Gap Analysis  
-- Cloud Deployment with Database  
+Deployed using Streamlit Community Cloud.
+
+Deployment Steps:
+
+1. Push project to GitHub
+
+
+2. Login to Streamlit Cloud
+
+
+3. Connect GitHub repository
+
+
+4. Select app.py
+
+
+5. Deploy
+
+
+
 
 ---
 
-## 👨‍💻 Author
+🎯 Use Cases
 
-Manohar  
-B.Tech – Artificial Intelligence & Machine Learning  
+Resume screening automation
+
+HR shortlisting support
+
+ATS resume testing tool
+
+Student ML portfolio project
+
+Career guidance prototype
+
+
 
 ---
 
-Built as a practical Machine Learning portfolio project.
+🚀 Future Enhancements
+
+BERT-based deep learning model
+
+Job description matching
+
+Keyword gap analysis
+
+Resume scoring dashboard
+
+Authentication system
+
+Cloud database integration
+
+
+
+---
+
+👨‍💻 Author
+
+Manohar
+Machine Learning Enthusiast
+
+GitHub: https://github.com/manu-Manohar1
+
+
+---
+
+📜 License
+
+This project is licensed under the MIT License.
+
+
+
+Done.
+If you want next level portfolio README (more attractive for recruiters), tell me.
