@@ -1,4 +1,4 @@
-🚀 Resume Category Predictor – AI Powered Web App
+🚀 Resume AI- Predictor – AI Powered Web App
 
 🔗 Live App: https://your-app-name.streamlit.app
 
@@ -192,8 +192,3 @@ GitHub: https://github.com/manu-Manohar1
 📜 License
 
 This project is licensed under the MIT License.
-
-
-
-Done.
-If you want next level portfolio README (more attractive for recruiters), tell me.
